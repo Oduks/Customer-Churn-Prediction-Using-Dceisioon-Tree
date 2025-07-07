@@ -1,6 +1,7 @@
 When you visualize a decision tree, especially one created using Scikit-learn's DecisionTreeClassifier, you'll notice several terms on each node of the tree. Understanding these terms is crucial for interpreting the tree's decision-making process. Let's break down each of these terms:
 
-**Gini** /n
+**Gini** 
+
 The Gini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.
 The Gini impurity ranges from 0 to 0.5, where 0 indicates that all elements in the subset belong to the same class (perfect purity), and 0.5 means the data is randomly distributed across various classes.
 In decision trees, a lower Gini impurity is generally preferred as it indicates greater purity of the node. /n
